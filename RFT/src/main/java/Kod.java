@@ -10,11 +10,16 @@
  */
 public class Kod {
    
-    public static int osszeAdas(int x, int y){
+    public static int osszeadas(int x, int y){
         return x+y;
     }
     
+    public static int szorzas(int x, int y){
+        return x*y;
+    }
+    
     public static void main(String[] args) {
-        System.out.println("5 + 5 eredménye: " + osszeAdas(5, 5));
+        System.out.println("5 + 5 eredménye: " + osszeadas(5, 95));
+        System.out.println("10 * 10 eredménye: " + szorzas(10, 10));
     }
 }
